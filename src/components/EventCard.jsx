@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function EventCard({ item }) {
 
@@ -22,7 +23,7 @@ function EventCard({ item }) {
         <span className={`icon-${statusColor()}`} />              
         <span>Status: {item.status}</span>
       </div>
-      <img className='mt-2' src={item.image} alt="Rick and Morty" />
+      <Image className='mt-2' src={item.image} alt="Rick and Morty" />
       <div className='flex justify-center'>
         <span className='pt-4'>Location: {item.location.name}</span>
       </div>
