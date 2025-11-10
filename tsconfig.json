@@ -26,7 +26,7 @@
       ]
     },
     // 🧩 Opcional (para suprimir el warning de TS 7)
-    "ignoreDeprecations": "6.0"
+    // "ignoreDeprecations": "6.0"
   },
   "include": [
     "next-env.d.ts",
